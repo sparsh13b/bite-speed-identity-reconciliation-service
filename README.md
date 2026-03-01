@@ -38,7 +38,7 @@ At least one of `email` or `phoneNumber` must be provided.
     "primaryContactId": 1,
     "emails": ["example@email.com"],
     "phoneNumbers": ["1234567890"],
-    "secondaryContactIds": [2, 3]
+    "secondaryContactIds": []
   }
 }
 ```
