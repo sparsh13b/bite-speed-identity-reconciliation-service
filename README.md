@@ -4,11 +4,11 @@ A backend web service that identifies and links customer contacts across multipl
 
 ## Live Endpoint
 
-> **Base URL:** `https://your-app-name.onrender.com`
+> **Base URL:** `https://bite-speed-identity-reconciliation.onrender.com`
 >
-> **POST** `/identify`
+> **POST** `https://bite-speed-identity-reconciliation.onrender.com/identify`
 
-_(Update the URL above after deploying to Render)_
+
 
 ## Tech Stack
 
@@ -19,7 +19,7 @@ _(Update the URL above after deploying to Render)_
 
 ## API Usage
 
-### `POST /identify`
+### `POST https://bite-speed-identity-reconciliation.onrender.com/identify`
 
 **Request Body (JSON):**
 ```json
@@ -56,7 +56,7 @@ cd bite-speed
 npm install
 ```
 
-3. Set up environment
+3. Set up environment for local dev
 ```bash
 # create a .env file with:
 DATABASE_URL="file:./dev.db"
